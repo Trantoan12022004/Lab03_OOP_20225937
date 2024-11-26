@@ -1,0 +1,7 @@
+1.What happens if users choose "Cancel"?
+Nếu người dùng chọn "Cancel", quá trình khởi chạy ứng dụng sẽ bị hủy bỏ, và các thay đổi (nếu có) sẽ không được lưu lại. Điều này nghĩa là không có hành động nào xảy ra, và ứng dụng sẽ không được chạy.
+
+2.How to customize the options to users, e.g. only two options: "Yes" and "No", OR "I do" and "I don’t"?
+Để tùy chỉnh các tùy chọn mà người dùng nhìn thấy (ví dụ: chỉ có "Yes" và "No", hoặc "I do" và "I don't"), bạn có thể làm như sau:
+Trong Java, sử dụng JOptionPane để tạo các hộp thoại tùy chỉnh. Bạn có thể cung cấp các tùy chọn tùy chỉnh khi gọi phương thức JOptionPane.showOptionDialog().
+Nếu bạn sử dụng Eclipse hoặc NetBeans IDE, bạn có thể tìm trong tài liệu Javadoc hoặc sử dụng phần trợ giúp tích hợp của IDE để hướng dẫn cách tùy chỉnh các hộp thoại này.
